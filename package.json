@@ -20,5 +20,9 @@
     "android": {
       "sourceDir": "./android"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redpandatronicsuk/react-native-check-app-install.git"
   }
 }
