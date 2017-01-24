@@ -8,3 +8,4 @@ react-native run-ios
  - or -
 react-native run-android
 ```
+It is recommended to run it on a real device as on the emulator probably none of the apps will be installed.
