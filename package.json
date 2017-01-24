@@ -1,6 +1,6 @@
 {
   "name": "react-native-check-app-install",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React Native plugin for checking if apps/packages are installed on the device or not.",
   "main": "index.js",
   "scripts": {
