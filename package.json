@@ -24,5 +24,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/redpandatronicsuk/react-native-check-app-install.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/redpandatronicsuk/react-native-check-app-install/issues"
+  },
+  "homepage": "https://github.com/redpandatronicsuk/react-native-check-app-install#readme"
 }
