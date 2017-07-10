@@ -19,7 +19,7 @@ class AppInstalledChecker {
     static checkURLScheme(proto, query) {
         return new Promise((resolve, reject) => {
             Linking
-                .canOpenURL(proto + '://' + query)
+                .canOpenURL(proto + '://' + query || '')
                 .then((isInstalled) => {
                     console.log('isInstalled', isInstalled);
                     resolve(isInstalled);
