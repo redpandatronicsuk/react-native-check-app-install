@@ -21,7 +21,7 @@ AppInstalledChecker
 
 // To check using URL (works on iOS and Android):
 AppInstalledChecker
-    .isAppInstalledIOS('whatsapp') // omit the :// suffix
+    .checkURLScheme('whatsapp') // omit the :// suffix
     .then((isInstalled) => {
         // isInstalled is true if the app is installed or false if not
     })
