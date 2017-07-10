@@ -26,5 +26,6 @@ export const APP_LIST = {
     // "threema": {pkgName: "ch.threema.app", urlScheme: "threema", urlParams: "add?id=ECHOECHO"}, // fa: lock
     "vlc": {pkgName: "org.videolan.vlc", urlScheme: "vlc", urlParams: ""}, 
     "tumblr": {pkgName: "com.tumblr", urlScheme: "tumblr", urlParams: "x-callback-url/dashboard"}, // fa
-    "flickr": {pkgName: "com.yahoo.mobile.client.android.flickr", urlScheme: "flickr", urlParams: ""} // fa
+    "flickr": {pkgName: "com.yahoo.mobile.client.android.flickr", urlScheme: "flickr", urlParams: ""}, // fa
+    "linkedin": {pkgName: "com.linkedin.android", urlScheme: "linkedin", urlParams: ""}
 };
