@@ -1,5 +1,7 @@
 # react-native-check-app-install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/redpandatronicsuk/react-native-check-app-install.svg)](https://greenkeeper.io/)
+
 ## Installation
 ```
 npm i --save react-native-check-app-install
