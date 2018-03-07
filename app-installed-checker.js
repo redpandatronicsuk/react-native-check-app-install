@@ -21,11 +21,9 @@ class AppInstalledChecker {
             Linking
                 .canOpenURL(proto + '://' + query || '')
                 .then((isInstalled) => {
-                    console.log('isInstalled', isInstalled);
                     resolve(isInstalled);
                 })
                 .catch((err) => {
-                    console.log('erroer', err);
                     reject(err);
                 });
         });
