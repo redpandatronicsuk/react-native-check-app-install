@@ -27,5 +27,6 @@ export const APP_LIST = {
     "vlc": {pkgName: "org.videolan.vlc", urlScheme: "vlc", urlParams: ""}, 
     "tumblr": {pkgName: "com.tumblr", urlScheme: "tumblr", urlParams: "x-callback-url/dashboard"}, // fa
     "flickr": {pkgName: "com.yahoo.mobile.client.android.flickr", urlScheme: "flickr", urlParams: ""}, // fa
-    "linkedin": {pkgName: "com.linkedin.android", urlScheme: "linkedin", urlParams: ""}
+    "linkedin": {pkgName: "com.linkedin.android", urlScheme: "linkedin", urlParams: ""},
+    "google": { pkgName: "com.google.android.googlequicksearchbox", urlScheme: "google", urlParams: "" }
 };
