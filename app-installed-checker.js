@@ -39,7 +39,7 @@ class AppInstalledChecker {
     }
 
     static isAppInstalledAndroid(key) {
-        return this.checkPackageName(APP_LIST[key].pkgName);
+        return this.checkPackageName(APP_LIST[key] != null ? APP_LIST[key].pkgName : key);
     }
 
     static isAppInstalledIOS(key) {
