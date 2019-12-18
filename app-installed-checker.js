@@ -21,11 +21,9 @@ class AppInstalledChecker {
             Linking
                 .canOpenURL(proto + '://' + query || '')
                 .then((isInstalled) => {
-                    console.log('isInstalled', isInstalled);
                     resolve(isInstalled);
                 })
                 .catch((err) => {
-                    console.log('erroer', err);
                     reject(err);
                 });
         });
@@ -39,7 +37,7 @@ class AppInstalledChecker {
     }
 
     static isAppInstalledAndroid(key) {
-        return this.checkPackageName(APP_LIST[key] != null ? APP_LIST[key].pkgName : key);
+        return this.checkPackageName(key);
     }
 
     static isAppInstalledIOS(key) {
