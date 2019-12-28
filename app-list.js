@@ -17,6 +17,7 @@ export const APP_LIST = {
     "amazon": {pkgName: "com.amazon.mShop.android.shopping", urlScheme: "amazon", urlParams: "content/item?id=B007Q4OVHQ"}, // fa
     "soundcloud": {pkgName: "com.soundcloud.android", urlScheme: "soundcloud", urlParams: "tracks/63085864"}, // fa
     "google maps": {pkgName: "com.google.android.apps.maps", urlScheme: "comgooglemaps", urlParams: "?center=40.765819,-73.975866&zoom=14&views=traffic"}, // fa: map-marker
+    "waze": {pkgName: "com.waze", urlScheme: "waze", urlParams: ""},
     "chrome": {pkgName: "com.android.chrome", urlScheme: "googlechrome", urlParams: "github.com"}, // fa
     "gmail": {pkgName: "com.google.android.gm", urlScheme: "googlegmail", urlParams: "co?subject=foo&body=bar"}, // fa: envelope-open
     "google drive": {pkgName: "com.google.android.apps.docs", urlScheme: "googledrive", urlParams: ""}, // fa: database
