@@ -1,47 +1,44 @@
-def safeExtGet(prop, fallback) {
-    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
-}
-
 buildscript {
     repositories {
-        google()
         jcenter()
+        google()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath('com.android.tools.build:gradle:3.5.0')
     }
 }
 
 apply plugin: 'com.android.library'
 
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
 android {
-    compileSdkVersion safeExtGet('compileSdkVersion', 23)
-    //noinspection GradleDependency
-    buildToolsVersion safeExtGet('buildToolsVersion', '23.0.1')
+    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 16)
-        //noinspection OldTargetApi
-        targetSdkVersion safeExtGet('targetSdkVersion', 23)
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion safeExtGet('targetSdkVersion', 28)
+        versionCode 2
+        versionName "1.1"
     }
     lintOptions {
-        abortOnError false
+        warning 'InvalidPackage', 'MissingPermission'
     }
 }
 
 repositories {
-    google()
     mavenLocal()
     jcenter()
     maven {
         // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
-        url "$projectDir/../../../node_modules/react-native/android"
+        url "$rootDir/../../../node_modules/react-native/android"
     }
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
+    implementation "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
 }
