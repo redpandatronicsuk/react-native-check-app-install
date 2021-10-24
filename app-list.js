@@ -9,7 +9,7 @@ export const APP_LIST = {
     "youtube": {pkgName: "com.google.android.youtube", urlScheme: "youtube", urlParams: "watch?v=dQw4w9WgXcQ"}, // fa
     "netflix": {pkgName: "com.netflix.mediaclient", urlScheme: "nflx", urlParams: ""}, 
     "instagram": {pkgName: "com.instagram.android", urlScheme: "instagram", urlParams: "app"}, // fa
-    "spotify": {pkgName: "com.spotify.mobile.android.ui", urlScheme: "spotify", urlParams: "http://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"}, // fa 
+    "spotify": {pkgName: "com.spotify.music", urlScheme: "spotify", urlParams: "http://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"}, // fa 
     "slack": {pkgName: "com.Slack", urlScheme: "slack", urlParams: "open"}, // fa
     //"hipchat": {pkgName: "com.hipchat", urlScheme: "hipchat", urlParams: "companyname/lobby"},
     "pinterest": {pkgName: "com.pinterest", urlScheme: "pinterest", urlParams: "pin/285063851385287883/"}, // fa
