@@ -23,8 +23,8 @@ class AppInstalledChecker {
                 .then((isInstalled) => {
                     resolve(isInstalled);
                 })
-                .catch((err) => {
-                    reject(err);
+                .catch((_) => {
+                    resolve(false);
                 });
         });
     }
@@ -37,7 +37,7 @@ class AppInstalledChecker {
     }
 
     static isAppInstalledAndroid(key) {
-        return this.checkPackageName(key);
+        return this.checkPackageName(APP_LIST[key].pkgName);
     }
 
     static isAppInstalledIOS(key) {
