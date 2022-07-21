@@ -23,8 +23,8 @@ class AppInstalledChecker {
                 .then((isInstalled) => {
                     resolve(isInstalled);
                 })
-                .catch((err) => {
-                    reject(err);
+                .catch((_) => {
+                    resolve(false);
                 });
         });
     }
