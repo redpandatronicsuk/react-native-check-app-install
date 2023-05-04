@@ -28,5 +28,6 @@ export const APP_LIST = {
     "tumblr": {pkgName: "com.tumblr", urlScheme: "tumblr", urlParams: "x-callback-url/dashboard"}, // fa
     "flickr": {pkgName: "com.yahoo.mobile.client.android.flickr", urlScheme: "flickr", urlParams: ""}, // fa
     "linkedin": {pkgName: "com.linkedin.android", urlScheme: "linkedin", urlParams: ""},
-    "google": { pkgName: "com.google.android.googlequicksearchbox", urlScheme: "google", urlParams: "" }
+    "google": { pkgName: "com.google.android.googlequicksearchbox", urlScheme: "google", urlParams: "" },
+    "googlefit":{pkgName: "com.google.android.apps.fitness", urlScheme: "googlefit", urlParams: "" }
 };
